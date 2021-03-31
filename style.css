@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: white;
+  background-color: rgb(145, 18, 77);
+  align-items: center;
+  padding: 15px;
+}
+
+.container {
+  display: grid;
+  grid-template:
+    ". main ." auto/
+    50px 1fr 50px;
+
+  place-items: center;
+}
+
+main {
+  grid-area: main;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+
+  align-items: left;
+}
+
+figure {
+  border-radius: 5px;
+
+  margin: 10px;
+  padding: 30px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 16px;
+  font-family: cursive;
+}
+
+figcaption {
+  font-variant: small-caps;
+  font-size: 12px;
+
+  text-align: right;
+}
+
+.author {
+  background-color: lightgreen;
+}
+
+.tv-shows {
+  background-color: lightskyblue;
+}
